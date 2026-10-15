@@ -1,3 +1,6 @@
-const delay = (callback, ms) => new Promise((resolve) => setTimeout(resolve(callback()), ms));
+const delay = (callback, ms) =>
+    new Promise((resolve) => {
+        setTimeout(() => resolve(callback()), ms);
+    });
 
-export default delay;
+module.exports = delay;

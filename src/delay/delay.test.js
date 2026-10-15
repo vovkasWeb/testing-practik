@@ -1,4 +1,4 @@
-const dalay = require("./delay");
+const delay = require("./delay");
 
 describe("delay", () => {
     test("Коректное значения", async() => {

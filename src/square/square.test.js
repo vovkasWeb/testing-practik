@@ -17,8 +17,8 @@ describe("square", () => {
         expect(square(-5)).not.toBe(25);
     })
     test("Некоректное значения", () => {
-        expect(square(101));
-    })
+        expect(square(101)).toBe(null);
+    });
 
 
     // afterAll(() => {
